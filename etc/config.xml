@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magecan, Inc. All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <custom_order_number>
+            <order>
+                <sequence_start_value>1</sequence_start_value>
+                <sequence_step>1</sequence_step>
+            </order>
+            <invoice>
+                <sequence_start_value>1</sequence_start_value>
+                <sequence_step>1</sequence_step>
+            </invoice>
+            <creditmemo>
+                <sequence_start_value>1</sequence_start_value>
+                <sequence_step>1</sequence_step>
+            </creditmemo>
+            <shipment>
+                <sequence_start_value>1</sequence_start_value>
+                <sequence_step>1</sequence_step>
+            </shipment>
+        </custom_order_number>
+    </default>
+</config>
